@@ -1,6 +1,6 @@
 <?php 
  
- namespace SimpleRules; 
+namespace Rules; 
  
  use pocketmine\Player; 
  use pocketmine\command\Command; 
