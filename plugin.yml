@@ -1,0 +1,9 @@
+name: Rules
+main: Rules\Main
+version: "1.0.0"
+api: [1.0.0]
+author: GamingPilot2
+
+commands:
+ rules:
+    description: "Cette commande te permet de regarder les règles du serveur !"
