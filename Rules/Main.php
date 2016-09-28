@@ -11,7 +11,7 @@ use pocketmine\event\Listener;
 class Main extends PluginBase implements Listener{
 
 public function onEnable(){
-      $this->getLogger()->info("Le plugin /rules est desormais actif !"))
+      $this->getLogger()->info("Le plugin /rules est desormais actif !");
       $this->getServer()->getPluginManager()->registerEvents($this, $this);
       }
 public function onCommand(CommandSender $sender, Command $command, $label, array $args){
@@ -22,3 +22,4 @@ public function onCommand(CommandSender $sender, Command $command, $label, array
   $sender->sendMessage("§92- §4Utilisation de la commande §lme §r/§c 1x §aKick §c2x §aBan 1mois §c3x §aBan def");
   $sender->sendMessage("§93- §4Insultes à un §ljoueur/staff§r /§c 1x §aBan 1sem §c2x §aBan 1 mois §c3x §aBan def (Pseudo+IP+CID)");
   $sender->sendMessage("§6----------------------------------");
+}
